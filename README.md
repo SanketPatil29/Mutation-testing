@@ -64,7 +64,7 @@ target/pit-reports/[TIMESTAMP]/index.html
 ```
 Open this HTML file in a web browser to view detailed mutation testing results.
 
-[pit report](https://github.com/user-attachments/assets/d6363ce3-bae4-448d-a20d-3e8bd7541103)
+![image](https://github.com/user-attachments/assets/d6363ce3-bae4-448d-a20d-3e8bd7541103)
 
 ### Interpreting the PIT Report
 - **Survived Mutations**: Indicate potential weakness in test cases
