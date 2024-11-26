@@ -4,7 +4,7 @@
 A simple Java-based console application to manage personal contacts, including add, search, view, edit, and delete contact information.
 
 ## Project Structure
-<img src="https://github.com/user-attachments/assets/bc8d05b2-9c87-4a21-bcac-20e375604a0d" alt="Project Structure" width="400"/>
+<img src="https://github.com/user-attachments/assets/bc8d05b2-9c87-4a21-bcac-20e375604a0d" alt="Project Structure" height="500" width="400"/>
 
 ## Features
 1. **Add Contact**
