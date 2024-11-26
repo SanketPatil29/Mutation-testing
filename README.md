@@ -3,6 +3,29 @@
 ## Address Book Management System
 A simple Java-based console application to manage personal contacts, including add, search, view, edit, and delete contact information.
 
+## Project Structure
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── org.example
+│   │   │       ├── AddContact
+│   │   │       ├── Contact
+│   │   │       ├── DeleteContact
+│   │   │       ├── EditContact
+│   │   │       ├── Main
+│   │   │       ├── PrintContacts
+│   │   │       └── SearchContact
+│   ├── resources
+├── test
+│   ├── java
+│   │   └── org.example
+│   │       ├── AddContactTest
+│   │       ├── DeleteContactTest
+│   │       ├── EditContactTest
+│   │       ├── MainTest
+│   │       ├── PrintContactsTest
+│   │       └── SearchContactTest
+
 ## Features
 1. **Add Contact**
    - Add a new contact with details:
@@ -48,23 +71,22 @@ mvn clean install
 
 ## Mutation Testing with PIT
 
-### 3. Install PIT Mutation Testing
-PIT is already included in the project's `pom.xml`. No additional installation is required.
-
-### 4. Run Mutation Tests
+### 3. Run Mutation Tests
 ```bash
 mvn org.pitest:pitest-maven:mutationCoverage
 ```
 
-### 5. View Mutation Testing Report
+### 4. Mutation Testing Report!
+
 After running the mutation tests, the report will be generated in:
 ```
 target/pit-reports/[TIMESTAMP]/index.html
 ```
-
 Open this HTML file in a web browser to view detailed mutation testing results.
+
+[pit report](https://github.com/user-attachments/assets/d6363ce3-bae4-448d-a20d-3e8bd7541103)
 
 ### Interpreting the PIT Report
 - **Survived Mutations**: Indicate potential weakness in test cases
 - **Killed Mutations**: Show effective test coverage
-- **Coverage Percentage**: Measures the thoroughness of your test suite
+- **Coverage Percentage**: Measures the thoroughness of test suite
