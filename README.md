@@ -4,27 +4,7 @@
 A simple Java-based console application to manage personal contacts, including add, search, view, edit, and delete contact information.
 
 ## Project Structure
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── org.example
-│   │   │       ├── AddContact
-│   │   │       ├── Contact
-│   │   │       ├── DeleteContact
-│   │   │       ├── EditContact
-│   │   │       ├── Main
-│   │   │       ├── PrintContacts
-│   │   │       └── SearchContact
-│   ├── resources
-├── test
-│   ├── java
-│   │   └── org.example
-│   │       ├── AddContactTest
-│   │       ├── DeleteContactTest
-│   │       ├── EditContactTest
-│   │       ├── MainTest
-│   │       ├── PrintContactsTest
-│   │       └── SearchContactTest
+![image](https://github.com/user-attachments/assets/bc8d05b2-9c87-4a21-bcac-20e375604a0d)
 
 ## Features
 1. **Add Contact**
